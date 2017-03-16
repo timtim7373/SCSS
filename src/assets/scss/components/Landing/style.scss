@@ -72,13 +72,16 @@
   text-align: right;
   padding-top: 15px;
 }
-.head-menu li {
+.head-menu a {
   display: inline-block;
   color: #fff;
   padding: 0 10px 0 10px;
   font: 400 15px/26px 'Montserrat', sans-serif;
 }
-.head-menu li:first-child {
+.head-menu a:first-child {
+  color: #753d9d;
+}
+.head-menu a:hover {
   color: #753d9d;
 }
 .heading {

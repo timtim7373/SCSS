@@ -50,6 +50,8 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+@import 'components/contact/contact.scss';
 @import 'components/_resets';
 @import 'vendor/slick';
 @import 'components/Landing/style';
+
