@@ -1,0 +1,94 @@
+
+.services {
+  text-align: center;
+  .serv-img {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    // background-color: rgba(25, 11, 35, 0.6);
+    &:before {
+      content: '';
+      left: 0;
+      top: 0;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(25, 11, 35, 0.6);
+    }
+    &.one, &.two, &.three, &.four, &.five {
+      &:after {
+        content: '';
+        height: 100px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(0deg, rgba(117, 61, 157, 1), rgba(117, 61, 157, 0));
+      }
+    }
+    &.six p {
+      text-align: right;
+      right: 40px;
+      bottom: 40px;
+    }
+    &.six span {
+      height: 4px;
+      width: 90px;
+      background: #fff;
+      border-radius: 2px;
+      position: absolute;
+      bottom: 45px;
+      right: 70px;
+    }
+  }
+  .serv-img p {
+    color: #fff;
+    font: 600 17px/26px 'Montserrat', sans-serif;
+    position: absolute;
+    left: 25px;
+    bottom: 10px;
+    z-index: 2;
+  }
+}
+
+
+
+
+
+
+
+/* .serv-img:before {
+ color: rgba(25, 11, 35, 0.6);
+} */
+
+/* .serv-img.three:before:focus {
+	color: rgba(117, 62, 156, 0.94);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
