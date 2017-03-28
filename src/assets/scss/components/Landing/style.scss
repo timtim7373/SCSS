@@ -59,7 +59,7 @@
 
 
 .header {
-  height: 763px;
+  height: 100%;
   background: url(../img/header/v1.jpg) center no-repeat;
 }
 .header .content-wrapper {
@@ -67,21 +67,21 @@
 }
 .head-menu {
   display: inline-block;
-  position: absolute;
-  right: 0;
+  //position: relative;
+  //right: 0;
   text-align: right;
   padding-top: 15px;
 }
-.head-menu a {
+.head-menu li {
   display: inline-block;
   color: #fff;
   padding: 0 10px 0 10px;
   font: 400 15px/26px 'Montserrat', sans-serif;
 }
-.head-menu a:first-child {
-  color: #753d9d;
+.active {
+  color: #753d9d !important;
 }
-.head-menu a:hover {
+.head-menu li:hover {
   color: #753d9d;
 }
 .heading {

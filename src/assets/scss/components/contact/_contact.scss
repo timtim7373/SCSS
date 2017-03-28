@@ -1,0 +1,74 @@
+
+.head-menu a {
+  color: #fff;
+  &:hover {
+    color: #753d9d;
+  }
+}
+
+
+.heading.contact-block {
+  padding: 185px 0 70px;
+
+}
+.bread-crumbs {
+  img {
+    display: inline-block;
+    width: 23px;
+    height: 16px;
+  }
+  h6 {
+    display: inline-block;
+    color: #fff;
+    font: 400 15px/1.7 'Montserrat', sans-serif;
+    padding: 0 12px 0 12px;
+    &.active {
+      color: #753d9d;
+    }
+  }
+}
+.contact-info {
+  h4 {
+    padding-top: 60px;
+  }
+  text-align: center;
+  padding: 100px 0 50px;
+  img {
+    width: 140px;
+  }
+  .email {
+    img {
+      padding-top: 20px;
+    }
+    h4 {
+      padding-top: 75px;
+    }
+  }
+  .adresse img {
+    width: 114px;
+  }
+}
+
+.google-map {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+}
+
+.contact-form {
+  padding-top: 510px;
+  position: relative;
+  span {
+    width: 4px;
+    height: 38px;
+    background: #753d9d;
+    position: absolute;
+    top: 7px;
+    border-radius: 2px;
+  }
+  h2 {
+    font: 600 26px/2 'Montserrat', sans-serif;
+    padding-left: 13px;
+    color: #0d113d;
+  }
+}

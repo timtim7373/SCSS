@@ -34,7 +34,7 @@
 // @include foundation-progress-element;
 // @include foundation-meter-element;
 // @include foundation-slider;
-// @include foundation-sticky;
+@include foundation-sticky;
 // @include foundation-reveal;
 // @include foundation-switch;
 // @include foundation-table;
@@ -50,7 +50,9 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-@import 'components/contact/contact.scss';
+@import 'components/_mixins';
+@import 'components/contact/_contact';
+@import 'components/about/_about';
 @import 'components/_resets';
 @import 'vendor/slick';
 @import 'components/Landing/style';

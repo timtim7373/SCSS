@@ -1,0 +1,27 @@
+@mixin clearfix {
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+  }
+}
+
+@mixin size($width:auto, $height:$width) {
+  height: $height;
+  width: $width;
+}
+
+@mixin position($position:absolute, $top:auto, $left:auto) {
+  position: $position;
+  top: $top;
+  left: $left;
+}
+
+@mixin bottom-liner ($border-bottom: 1px solid #ccc, $width:0) {
+  border-bottom: $border-bottom;
+  width: $width;
+}
+
+//@include clearfix
