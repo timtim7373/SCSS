@@ -1,0 +1,25 @@
+.green {
+  background: #7f7;
+  h1 {
+    color: #fff;
+    text-align: center;
+  }
+}
+.black {
+  height: 80px;
+  background: #000;
+  p {
+    color: #fff;
+    text-align: right;
+  }
+  span {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background: #d5d1d3;
+  }
+  &.is-stuck {
+    height: 50px;
+    transition: height 0.5s ease-out;
+  }
+}

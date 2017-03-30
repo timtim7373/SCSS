@@ -1,0 +1,26 @@
+h3 {
+  text-align: center;
+  color: #690cad;
+}
+
+.my-accordion {
+  li {
+    display: block;
+  }
+}
+//.accordion-title:before {
+//  content: '';
+//}
+
+
+//  &::before {
+//    position: absolute;
+//    top: 50%;
+//    #{$global-right}: 1rem;
+//    margin-top: -0.5rem;
+//    content: '+';
+//  }
+//
+//  .is-active > &::before {
+//    content: '\2013';
+//  }
