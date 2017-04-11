@@ -45,7 +45,7 @@
   }
   .serv-img p {
     color: #fff;
-    font: 600 17px/26px 'Montserrat', sans-serif;
+    font: 600 17px/26px #{$body-font-family}, sans-serif;
     position: absolute;
     left: 25px;
     bottom: 10px;
@@ -76,7 +76,7 @@
   display: inline-block;
   color: #fff;
   padding: 0 10px 0 10px;
-  font: 400 15px/26px 'Montserrat', sans-serif;
+  font: 400 15px/26px #{$body-font-family}, sans-serif;
 }
 .active {
   color: #753d9d !important;
@@ -91,12 +91,12 @@
 .heading h1:first-child {
   display: inline-block;
   color: #fff;
-  font: 800 70px/1 'Montserrat', sans-serif;
+  font: 800 70px/1 #{$body-font-family}, sans-serif;
 }
 .heading h1:last-child {
   display: inline-block;
   color: #a066c9;
-  font: 800 70px/1 'Montserrat', sans-serif;
+  font: 800 70px/1 #{$body-font-family}, sans-serif;
   padding-left: 10px;
 }
 .header p {
@@ -131,7 +131,7 @@
   border-radius: 2px;
 }
 .serv-title h2 {
-  font: 600 26px/2 'Montserrat', sans-serif;
+  font: 600 26px/2 #{$body-font-family}, sans-serif;
   //margin-bottom: 0;
   padding-left: 13px;
 }
@@ -165,7 +165,7 @@ img {
 .serv-img p {
   //font: 17px;
   color: #fff;
-  font: 600 17px/26px 'Montserrat', sans-serif;
+  font: 600 17px/26px #{$body-font-family}, sans-serif;
   position: absolute;
   left: 25px;
   bottom: 10px;
@@ -224,7 +224,7 @@ img {
 }
 
 .serv-hover h6 {
-  font: 600 17px/26px 'Montserrat', sans-serif;
+  font: 600 17px/26px #{$body-font-family}, sans-serif;
   color: #fff;
   position: absolute;
   bottom: 15px;
@@ -242,7 +242,7 @@ img {
   z-index: 4;
 }
 .serv-hover p {
-  font: 300 14px/22px 'Montserrat', sans-serif;
+  font: 300 14px/22px #{$body-font-family}, sans-serif;
   text-align: left;
   position: absolute;
   top: 107%;

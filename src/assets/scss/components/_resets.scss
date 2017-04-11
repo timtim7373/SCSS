@@ -1,12 +1,12 @@
 body, html {
-  font-family: 'Montserrat', sans-serif;
+  font-family: #{$body-font-family}, sans-serif;
   width: 100%;
   overflow-x: hidden;
 }
 
 p {
   color: #0d113d;
-  font: 300 15px/24px 'Montserrat', sans-serif;
+  font: 300 15px/24px #{$body-font-family}, sans-serif;
 }
 .semiBold {
   font-weight: 700;
@@ -19,6 +19,10 @@ p {
   top: 0;
   height: 100%;
   width: 5px;
+}
+
+body, html {
+  font-family: #{$body-font-family}, sans-serif;
 }
 
 ul {
@@ -35,15 +39,15 @@ h1, h2, h3, h4 {
   margin: 0;
 }
 h4 {
-  font: 400 20px/26px 'Montserrat', sans-serif;
+  font: 400 20px/26px #{$body-font-family}, sans-serif;
   color: #0d113d;
 }
 h6 {
-  font: 600 15px/26px 'Montserrat', sans-serif;
+  font: 600 15px/26px #{$body-font-family}, sans-serif;
   color: #753d9d;
 }
 a {
-  font: 400 15px/1 'Montserrat', sans-serif;
+  font: 400 15px/1 #{$body-font-family}, sans-serif;
 }
 //
 //{
