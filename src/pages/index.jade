@@ -1,0 +1,18 @@
+extends ../layouts/default.jade
+
+block content
+    h1 jade page
+    h1 angular test {{"test " + (2 * 80)}}
+
+
+
+
+
+
+    - var myArray=["first","second","third","fourth","fifth"];
+    ul
+         each elem in myArray
+            li #{elem}
+
+
+
